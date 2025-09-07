@@ -362,7 +362,10 @@
 }
 
 .colours{
+    width: 175px;
+    height: 24px;
     display: flex;
+    justify-content: space-between;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 20px;
@@ -370,24 +373,32 @@
     letter-spacing: 3%;
 }
 .colourButton{
-    border: 2px solid #000;
-    border-radius: 50%;
-}
-.elipes1{
-    border: 2px solid #fff;
-    border-radius: 50%;
+    width: 68px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.colourBtn2{
-    border: 2px solid #A0BCE0;
-    border-radius: 50%;
-    background-color: #A0BCE0;
-    width: 7px;
+.colourButton1{
+    width: 20px;
     height: 20px;
-    align-items: start;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #a0bce0;
+}
+
+.colourButton2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #e07575;
 }
 
 .sizeChat{
+    width: 296px;
+    height: 36px;
     display: flex;
     flex-direction: row;
     align-items: center;
