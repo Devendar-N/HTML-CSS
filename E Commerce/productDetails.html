@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="productDetailsStylesheet.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title> Product Details Page</title>
 </head>
@@ -13,12 +14,12 @@
 <body>
     <header>
         <div class="TopHeader">
-            <div class="frame746">
-                <div class="frame555">
+            <div class="topHeaderContent">
+                <div class="topHeaderOff">
                     <div class="text1">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</div>
                     <div class="text2">ShopNow</div>
                 </div>
-                <div class="frame549">
+                <div class="languageContainer">
                     <div class="language">English</div>
                     <div class="dropDown">
                         <img src="DropDown.png" alt="DropDown">
@@ -28,17 +29,17 @@
         </div>
         <div class="header">
             <div class="logo">Exclusive</div>
-            <div class="frame554">
-                <p>Home</p>
-                <p>contact</p>
-                <p>About</p>
-                <p>Sign Up</p>
+            <div class="tabs">
+                <div>Home</div>
+                <div>contact</div>
+                <div>About</div>
+                <div>Sign Up</div>
             </div>
-            <div class="search">
-                <input type="text" placeholder="What are you looking for?" class="component1">
+            <div class="searchTab">
+                <input class="component1" type="text" placeholder="What are you looking for?">
                 <img class="Vector" src="/E Commerce/assests/Vector.svg" alt="search">
             </div>
-            <div class="frame551">
+            <div class="tabIcons">
                 <img src="/E Commerce/assests/Vectorheart.svg" alt="wishList">
                 <img src="/E Commerce/assests/Cart1.svg" alt="Cart">
                 <img src="/E Commerce/assests/user.svg" alt="User">
@@ -52,7 +53,7 @@
         <div class="roadmapline"></div>
         <div class="roadmapcontent">Gaming</div>
         <div class="roadmapline"></div>
-        <div class="roadmapcontent">Havic HV G-92 Gamepad</div>
+        <div class="roadmapcontent1">Havic HV G-92 Gamepad</div>
     </div>
 
     <!-- content -->
@@ -100,6 +101,7 @@
                     Colours:
                     <div class="colourButton">
                         <div class="colourButton1">
+                            <div class="elipes1"></div>
                         </div>
                         <div class="colourButton2">
                             <div class="elipes2"></div>
@@ -109,18 +111,18 @@
                 <div class="sizeChat">
                     <div class="textSize">Size:</div>
                     <div class="availableSize">
-                        <div class="size">XS</div>
-                        <div class="size">S</div>
-                        <div class="sizeM">M</div>
-                        <div class="size">L</div>
-                        <div class="size">XL</div>
+                        <button class="size">XS</button>
+                        <button class="size">S</button>
+                        <button class="size">M</button>
+                        <button class="size">L</button>
+                        <button class="size">XL</button>
                     </div>
                 </div>
                 <div class="quantityContainer">
                     <div class="quantity">
-                        <div class="minus"><img src="/E Commerce/assests/minus.svg" alt=""></div>
+                        <div class="minus"><ion-icon name="remove-outline"></ion-icon></div>
                         <div class="number">2</div>
-                        <div class="plus"><img src="/E Commerce/assests/plus.svg" alt=""></div>
+                        <div class="plus"><ion-icon name="add-outline"></ion-icon></div>
                     </div>
                     <button class="btnBuyNow">
                         <div class="buyNow">Buy Now</div>

@@ -7,14 +7,14 @@
     align-items: center;
 }
 
-.frame746 {
+.topHeaderContent{
     display: flex;
     width: 859px;
     height: 24px;
     gap: 231px;
 }
 
-.frame555 {
+.topHeaderOff {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
     text-decoration-thickness: 0%;
 }
 
-.frame549 {
+.languageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
     color: #000;
 }
 
-.frame554 {
+.tabs {
     font-family: 'Poppins';
     display: flex;
     flex-direction: row;
@@ -107,7 +107,7 @@
     white-space: nowrap;
 }
 
-.search {
+.searchTab {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@
     background-color: #f5f5f5;
 }
 
-.frame551 {
+.tabIcons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,15 +146,6 @@
     margin-top: 35px;
 }
 
-.aling{
-    height: 1500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-}
-
 .roadmap {
     position: relative;
     top: 70px;
@@ -166,8 +157,10 @@
     height: 21px;
     gap: 12px;
 }
-
-.roadmapcontent {
+.roadmapcontent{
+    opacity: 50%;
+}
+.roadmapcontent, .roadmapcontent1{
     font-style: normal;
     font-family: 'Poppins';
     font-weight: 400;
@@ -186,6 +179,15 @@
     border: 1px solid #000;
     rotate: 117.05deg;
     opacity: 50%;
+}
+
+.aling{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
 }
 
 .contentframe {
@@ -381,9 +383,18 @@
 }
 
 .colourButton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20px;
     height: 20px;
     border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.elipes1{
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #a0bce0;
 }
@@ -435,18 +446,10 @@
     border: 1px solid #000;
     border-radius: 4px;
 }
-
-.sizeM{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border: 1px solid #000;
+ :hover.size{
+    color: #fff;
     background-color: #DB4444;
-    color: #FAFAFA;
-    border-radius: 4px;
-}
+ }
 
 .quantityContainer{
     display: flex;
@@ -463,6 +466,7 @@
 .minus, .plus{
     width: 40px;
     height: 44px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,7 +481,14 @@
 .plus{
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+:hover.minus{
     background-color: #DB4444;
+    color: #fff;
+}
+:hover.plus{
+    background-color: #DB4444;
+    color: #fff;
 }
 
 .number{
@@ -846,6 +857,8 @@
     color: #fff;
     background-color: #000;
 }
+
+
 
 .product2Off{
     display: flex;
