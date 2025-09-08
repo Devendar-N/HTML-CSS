@@ -7,14 +7,14 @@
     align-items: center;
 }
 
-.frame746 {
+.topHeaderContent {
     display: flex;
     width: 859px;
     height: 24px;
     gap: 231px;
 }
 
-.frame555 {
+.ftopHeaderOff {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
     text-decoration-thickness: 0%;
 }
 
-.frame549 {
+.languageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
     color: #000;
 }
 
-.frame554 {
+.tabs {
     font-family: 'Poppins';
     display: flex;
     flex-direction: row;
@@ -107,7 +107,7 @@
     white-space: nowrap;
 }
 
-.search {
+.searchTab {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@
     background-color: #f5f5f5;
 }
 
-.frame551 {
+.tabIcons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -144,18 +144,6 @@
     opacity: 30%;
     margin-top: 35px;
 }
-
-/* 
-.aling{
-    height: 1500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-}
-*/
-
 .roadmap {
     position: relative;
     top: 70px;
@@ -208,7 +196,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 250px;
+    gap: 360px;
 }
 
 .aboutText {
@@ -218,6 +206,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+}
+
+.aboutImage{
+    width: 705px;
+    height: 609px;
 }
 
 .OurStory {
