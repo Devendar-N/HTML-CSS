@@ -11,271 +11,273 @@
 </head>
 
 <body>
-    <header>
-        <div class="TopHeader">
-            <div class="topHeaderContent">
-                <div class="topHeaderOff">
-                    <div class="text1">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</div>
-                    <div class="text2">ShopNow</div>
+    <header id="main-header">
+        <div class="main-header-utility-bar">
+            <div class="main-header-title-container">
+                <div class="main-header-title">
+                    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
                 </div>
-                <div class="languageContainer">
-                    <div class="language">English</div>
-                    <div class="dropDown">
-                        <img src="./aboutUsImages/DropDown.png" alt="DropDown">
+                <a href="https://www.amazon.in/" class="main-header-cta">ShopNow</a>
+            </div>
+            <div class="main-header-language-switcher">
+                <select>
+                    <option>English</option>
+                    <option>French</option>
+                    <option>Spanish</option>
+                    <option>German</option>
+                    <option>Italian</option>
+                </select>
+            </div>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="main-header-menu">
+            <div class="main-header-menu-section-left">
+                <div class="main-header-menu-logo">Exclusive</div>
+                <div class="main-header-menu-links" id="main-header-menu-links">
+                    <div class="menu-link-content">Home</div>
+                    <div class="menu-link-content">Contact</div>
+                    <div class="menu-link-content" id="menu-active-link">About</div>
+                    <div class="menu-link-content">Sign Up</div>
+                </div>
+            </div>
+            <div class="main-header-menu-section-right">
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="What are you looking for?">
+                        <img src="./product-details-images/search.svg" class="search">
                     </div>
                 </div>
+                <div class="main-header-side-icons">
+                    <img src="./product-details-images/Wishlist.svg" class="main-header-wishlist" title="Wishlist">
+                    <img src="./product-details-images/Cart1.svg" class="main-header-cart-container" title="Cart"></img>
+                    <img src="./product-details-images/user.svg" class="main-header-user-icon" title="Profile">
+                </div>
             </div>
-        </div>
-        <div class="header">
-            <div class="logo">Exclusive</div>
-            <div class="tabs">
-                <p>Home</p>
-                <p>contact</p>
-                <p>About</p>
-                <p>Sign Up</p>
-            </div>
-            <div class="searchTab">
-                <input type="text" placeholder="What are you looking for?" class="component1">
-                <img class="Vector" src="./product-details-images/Vector.svg" alt="search">
-            </div>
-            <div class="tabIcons">
-                <img src="./product-details-images/Vectorheart.svg" alt="wishList">
-                <img src="./product-details-images/Cart1.svg" alt="Cart">
-                <img src="./product-details-images/user.svg" alt="User">
-            </div>
-        </div>
-        <div class="headerline">-
         </div>
     </header>
 
-
     <div class="roadmap">
-        <div class="roadmapcontent">Home</div>
-        <div class="roadmapline"></div>
-        <div class="contentAbout">About</div>
+        <div class="roadmap-content">Home</div>
+        <div class="roadmap-line"></div>
+        <div class="content-about">About</div>
     </div>
 
 
     <!--content-->
 
-    <div class="alignment">
 
-        <div class="aboutUs">
-            <div class="aboutText">
-                <div class="OurStory">Our Story</div>
-                <div class="OurStoryContent">
-                    <div class="storyContent1">Launced in 2015, Exclusive is South Asia’s premier online shopping
-                        makterplace with an active presense in Bangladesh. Supported by wide range of tailored
-                        marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3
-                        millioons customers across the region. </div>
-                    <div class="storyContent2">Exclusive has more than 1 Million products to offer, growing at a very
-                        fast. Exclusive offers a diverse assotment in categories ranging from consumer.</div>
-                </div>
+    <div class="about-us">
+        <div class="about-us-text">
+            <div class="Our-story">Our Story</div>
+            <div class="Our-story-content">
+                <div class="story-content">Launced in 2015, Exclusive is South Asia’s premier online shopping
+                    makterplace with an active presense in Bangladesh. Supported by wide range of tailored
+                    marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3
+                    millioons customers across the region. </div>
+                <div class="story-content">Exclusive has more than 1 Million products to offer, growing at a very
+                    fast. Exclusive offers a diverse assotment in categories ranging from consumer.</div>
             </div>
-            <div class="aboutImage"><img src="./aboutUsImages/aboutUs Side Image.svg" alt=""></div>
         </div>
-        <div class="achivements">
-            <div class="achivement">
-                <div class="achivementIcon">
-                    <div class="outerCircle">
-                        <div class="innerCircle">
-                            <div><img src="./aboutUsImages/icon_shop.svg" alt="Shop"></div>
+        <div class="about-image"><img src="./aboutUsImages/aboutUs Side Image.svg" alt=""></div>
+    </div>
+    <div class="achivement-container">
+        <div class="achivement">
+            <div class="achivement-icon">
+                <div class="outer-circle">
+                    <div class="inner-circle">
+                        <div><img src="./aboutUsImages/icon_shop.svg" alt="Shop"></div>
 
-                        </div>
                     </div>
                 </div>
-                <div class="achivementText">
-                    <div class="achivementCount">10.5k</div>
-                    <div class="achivementDiscription">Sallers active our site</div>
-                </div>
             </div>
-            <div class="sales">
-                <div class="salesIcon">
-                    <div class="salseouterCircle">
-                        <div class="salseinnerCircle">
-                            <div><img src="./aboutUsImages/Icon-Sale.svg" alt="Money"></div>
-                        </div>
+            <div class="achivement-text">
+                <div class="achivement-count">10.5k</div>
+                <div class="achivement-discription">Sallers active our site</div>
+            </div>
+        </div>
+        <div class="achivement">
+            <div class="achivement-icon">
+                <div class="outer-circle">
+                    <div class="inner-circle">
+                        <div><img src="./aboutUsImages/dollar-svgrepo-com.svg" alt="Money" class="salse-icon"></div>
                     </div>
                 </div>
-                <div class="salesText">
-                    <div class="salesCount">33k</div>
-                    <div class="salesDiscription">Mopnthly Produduct Sale</div>
-                </div>
             </div>
-            <div class="achivement">
-                <div class="achivementIcon">
-                    <div class="outerCircle">
-                        <div class="innerCircle">
-                            <div><img src="./aboutUsImages/Icon-Shopping bag.svg" alt="shopping">
-                            </div>
+            <div class="achivement-text">
+                <div class="achivement-count">33k</div>
+                <div class="achivement-discription">Mopnthly Produduct Sale</div>
+            </div>
+        </div>
+        <div class="achivement">
+            <div class="achivement-icon">
+                <div class="outer-circle">
+                    <div class="inner-circle">
+                        <div><img src="./aboutUsImages/Icon-Shopping bag.svg" alt="shopping">
+                        </div>
 
-                        </div>
                     </div>
                 </div>
-                <div class="achivementText">
-                    <div class="achivementCount">25k</div>
-                    <div class="achivementDiscription">Anual gross sale in our site</div>
+            </div>
+            <div class="achivement-text">
+                <div class="achivement-count">25k</div>
+                <div class="achivement-discription">Anual gross sale in our site</div>
+            </div>
+        </div>
+        <div class="achivement">
+            <div class="achivement-icon">
+                <div class="outer-circle">
+                    <div class="inner-circle">
+                        <div><img src="./aboutUsImages/Icon-Moneybag.svg" alt="Money Bag"></div>
+                    </div>
                 </div>
             </div>
-            <div class="achivement">
-                <div class="achivementIcon">
-                    <div class="outerCircle">
-                    <div class="innerCircle">
-                    <div><img src="./aboutUsImages/Icon-Moneybag.svg" alt="Money Bag"></div>
-                    </div></div>
-                </div>
-                <div class="achivementText">
-                    <div class="achivementCount">45.5k</div>
-                    <div class="achivementDiscription">Customer active in our site</div>
+            <div class="achivement-text">
+                <div class="achivement-count">45.5k</div>
+                <div class="achivement-discription">Customer active in our site</div>
+            </div>
+        </div>
+    </div>
+    <div class="employee-container">
+        <div class="employee">
+            <div class="employee-image">
+                <img src="./aboutUsImages/Tom.png" alt="Founder & Chairman">
+            </div>
+            <div class="employee-discription">
+                <div class="employee-details">
+                    <div class="employee-name">Tom Cruise</div>
+                    <div class="position">Founder & Chairman</div>
+                    <div class="social-apps">
+                        <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
+                        <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
+                        <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="employee">
-            <div class="person">
-                <div class="personImage">
-                    <div class="image1"><img src="./aboutUsImages/Tom.svg" alt="Founder & Chairman"></div>
-                </div>
-                <div class="personDescription">
-                    <div class="personDetails">
-                        <div class="personName">Tom Cruise</div>
-                        <div class="personPosition">Founder & Chairman</div>
-                        <div class="socialApps">
-                            <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
-                            <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
-                            <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
-                        </div>
-                    </div>
-                </div>
+            <div class="employee-image">
+                <img src="./aboutUsImages/emma.png" alt="Managing Director">
             </div>
-            <div class="person">
-                <div class="personImage">
-                    <div class="image2"><img src="./aboutUsImages/Emma.svg" alt="Managing Director"></div>
-                </div>
-                <div class="person2Description">
-                    <div class="person2Details">
-                        <div class="personName">Emma Watson</div>
-                        <div class="personPosition">Managing Director</div>
-                        <div class="socialApps">
-                            <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
-                            <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
-                            <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="person">
-                <div class="personImage">
-                    <div class="image3"><img src="./aboutUsImages/Will.svg" alt="Product Designer"></div>
-                </div>
-                <div class="personDescription">
-                    <div class="personDetails">
-                        <div class="personName">Will Smith</div>
-                        <div class="personPosition">Product Designer</div>
-                        <div class="socialApps">
-                            <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
-                            <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
-                            <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
-                        </div>
+            <div class="employee-discription">
+                <div class="employee-details">
+                    <div class="employee-name">Emma Watson</div>
+                    <div class="position">Managing Director</div>
+                    <div class="social-apps">
+                        <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
+                        <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
+                        <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="scroll">
-            <div class="ellipes"><img src="./aboutUsImages/bellipes.svg" alt="Black Circle"></div>
-            <div class="ellipes"><img src="./aboutUsImages/bellipes.svg" alt="Black Circle"></div>
-            <div class="redEllipes"><img src="./aboutUsImages/rellipes.svg" alt="Red Circle"></div>
-            <div class="ellipes"><img src="./aboutUsImages/bellipes.svg" alt="Black Circle"></div>
-            <div class="ellipes"><img src="./aboutUsImages/bellipes.svg" alt="Black Circle"></div>
+        <div class="employee">
+            <div class="employee-image">
+                <img src="./aboutUsImages/will.png" alt="Product Designer">
+            </div>
+            <div class="employee-discription">
+                <div class="employee-details">
+                    <div class="employee-name">Will Smith</div>
+                    <div class="position">Product Designer</div>
+                    <div class="social-apps">
+                        <img src="./aboutUsImages/Icon-Twitter.svg" alt="Twitter">
+                        <img src="./aboutUsImages/icon-instagram.svg" alt="Instagram">
+                        <img src="./aboutUsImages/Icon-Linkedin.svg" alt="linkedin">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="service-container">
+        <div class="service">
+            <div class="service-image"><img src="./aboutUsImages/delivery.svg" alt="Delivery"></div>
+            <div class="service-content-container">
+                <div class="service-title">FREE AND FAST DELIVERY</div>
+                <div class="service-content">Free delivery for all orders over $140</div>
+            </div>
         </div>
         <div class="service">
-            <div class="delivery">
-                <div class="deliveryImage"><img src="./aboutUsImages/delivery.svg" alt="Delivery"></div>
-                <div class="deliveryContent">
-                    <div class="serviceTitle">FREE AND FAST DELIVERY</div>
-                    <div class="serviceContent">Free delivery for all orders over $140</div>
-                </div>
+            <div class="service-image"><img src="./aboutUsImages/customerSupport.svg" alt="Customer Support">
             </div>
-            <div class="customerSupport">
-                <div class="CSImage"><img src="./aboutUsImages/customerSupport.svg" alt="Customer Support">
-                </div>
-                <div class="CSContent">
-                    <div class="serviceTitle">24/7 CUSTOMER SERVICE</div>
-                    <div class="serviceContent">Friendly 24/7 customer support</div>
-                </div>
+            <div class="service-content-container">
+                <div class="service-title">24/7 CUSTOMER SERVICE</div>
+                <div class="service-content">Friendly 24/7 customer support</div>
             </div>
-            <div class="refund">
-                <div class="refundImage"><img src="./aboutUsImages/guarantee.svg" alt="Refund"></div>
-                <div class="refundContent">
-                    <div class="serviceTitle">MONEY BACK GUARANTEE</div>
-                    <div class="serviceContent">We reurn money within 30 days</div>
-                </div>
+        </div>
+        <div class="service">
+            <div class="service-image"><img src="./aboutUsImages/guarantee.svg" alt="Refund"></div>
+            <div class="service-content-container">
+                <div class="service-title">MONEY BACK GUARANTEE</div>
+                <div class="service-content">We reurn money within 30 days</div>
             </div>
         </div>
     </div>
+
+    <!--footer-->
     <footer class="footer">
-        <div class="footerContent">
-            <div class="footerContent1">
-                <div class="footerLogo">Exclusive</div>
-                <div class="subscribe">Subscribe</div>
-                <div class="firstOrder">Get 10% off your first order</div>
-                <div class="sendMail">
+        <div class="footer-content-container">
+            <div class="footer-content">
+                <div class="footer-logo">Exclusive</div>
+                <div class="footer-quick-link">Subscribe</div>
+                <div class="quick-link-content">Get 10% off your first order</div>
+                <div class="send-mail">
                     <div class="input"> Enter your email</div>
-                    <div class="sendIcon"><img src="./product-details-images/send-icon.svg" alt="send-icon"></div>
+                    <div class="send-icon"><img src="./product-details-images/send-icon.svg" alt="send-icon"></div>
                 </div>
             </div>
-            <div class="footerContent2">
-                <div class="support">Support</div>
-                <div class="address">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</div>
-                <div class="email">exclusive@gmail.com</div>
-                <div class="phone">+88015-88888-9999</div>
+            <div class="footer-content">
+                <div class="footer-quick-link">Support</div>
+                <div class="quick-link-content">111 Bijoy sarani, Dhaka, DH 1515,<br> Bangladesh.</div>
+                <div class="quick-link-content">exclusive@gmail.com</div>
+                <div class="quick-link-content">+88015-88888-9999</div>
             </div>
-            <div class="footerContent3">
-                <div class="account">Account</div>
-                <div class="accountContent">
-                    <div class="myAccount">MY Account</div>
-                    <div class="login">Login/Register</div>
-                    <div class="cart">Cart</div>
-                    <div class="FooterwishList">Wishlist</div>
-                    <div class="shop">Shop</div>
-                </div>
+            <div class="footer-content">
+                <div class="footer-quick-link">Account</div>
+                <div class="quick-link-content">MY Account</div>
+                <div class="quick-link-content">Login/Register</div>
+                <div class="quick-link-content">Cart</div>
+                <div class="quick-link-content">Wishlist</div>
+                <div class="quick-link-content">Shop</div>
             </div>
-            <div class="footerContent4">
-                <div class="quickLink">Quick Link</div>
-                <div class="quickLinkContent">
-                    <div class="privacy">Privacy Policy</div>
-                    <div class="terms">Terms of Use</div>
-                    <div class="FAQ">FAQ</div>
-                    <div class="contact">Contact</div>
-                </div>
+            <div class="footer-content">
+                <div class="footer-quick-link">Quick Link</div>
+                <div class="quick-link-content">Privacy Policy</div>
+                <div class="quick-link-content">Terms of Use</div>
+                <div class="quick-link-content">FAQ</div>
+                <div class="quick-link-content">Contact</div>
             </div>
-            <div class="footerContent5">
-                <div class="downloadApp">Download App</div>
-                <div class="newUser">Save $3 with App New User Only</div>
+            <div class="footer-content">
+                <div class="footer-quick-link">Download App</div>
+                <div class="new-user">Save $3 with App New User Only</div>
                 <div class="links">
-                    <div class="qrCode"><img src="./product-details-images/Qrcode 1.svg" alt="Qrcode"></div>
+                    <div><img src="./product-details-images/Qrcode 1.svg" alt="Qrcode"></div>
                     <div class="download">
-                        <div class="playstore"><img src="./product-details-images/playstore.svg" alt="playstore"></div>
-                        <div class="appstore"><img src="./product-details-images/download-appstore.svg" alt="Appstore"></div>
+                        <div><img src="./product-details-images/playstore.svg" alt="playstore"></div>
+                        <div><img src="./product-details-images/download-appstore.svg" alt="Appstore">
+                        </div>
                     </div>
                 </div>
-                <div class="socialMedia">
-                    <div class="facebook"><img src="./product-details-images/facebook.svg" alt="Facebook"></div>
-                    <div class="twitter"><img src="./product-details-images/twitter.svg" alt="Twitter"></div>
-                    <div class="instagram"><img src="./product-details-images/instagram.svg" alt="Instagram"></div>
-                    <div class="linkedin"><img src="./product-details-images/linkedin.svg" alt="linkedin"></div>
+                <div class="social-media">
+                    <div><img src="./product-details-images/facebook.svg" alt="Facebook"></div>
+                    <div><img src="./product-details-images/twitter.svg" alt="Twitter"></div>
+                    <div><img src="./product-details-images/instagram.svg" alt="Instagram"></div>
+                    <div><img src="./product-details-images/linkedin.svg" alt="linkedin"></div>
                 </div>
             </div>
         </div>
-        <div class="copyrights">
-            <div class="footerLine"></div>
-            <div class="copyrightsbox">
-                <div class="footerCopyrights">
-                    <div class="copyrightsIcon"><img src="./product-details-images/copyrightsIcon.svg" alt=""></div>
-                    <div class="copyrightsText">Copyright Rimel 2022. All right reserved</div>
-                </div>
+        <div class="copyright">
+            <div class="copyright-content">
+                <div class="copyright-icon"><img src="./product-details-images/copyrightsIcon.svg" alt=""></div>
+                <div class="copyright-text" id="copyright-text"></div>
             </div>
         </div>
     </footer>
+
+    <script src="about-us.js"></script>
 </body>
 
 </html>
