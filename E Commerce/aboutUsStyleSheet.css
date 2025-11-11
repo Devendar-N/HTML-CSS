@@ -1,927 +1,989 @@
-.TopHeader {
-    width: 100%;
-    height: 48px;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.topHeaderContent {
-    display: flex;
-    width: 859px;
-    height: 24px;
-    gap: 231px;
-}
-
-.topHeaderOff {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 550px;
-    height: 24px;
-    gap: 8px;
-}
-
-.text1 {
-    width: 474px;
-    height: 18px;
-    font-family: 'Poppins';
-    color: #fff;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0%;
-}
-
-.text2 {
-    font-family: 'Poppins';
-    color: #fff;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-decoration: underline;
-    font-style: Solid;
-    offset: 0%;
-    text-decoration-thickness: 0%;
-}
-
-.languageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 78px;
-    height: 24px;
-    gap: 5px;
-}
-
-.language {
-    width: 49px;
-    height: 21px;
-    font-family: 'Poppins';
-    color: #fff;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0%;
-}
-
-.dropDown {
-    width: 24px;
-    height: 24px;
-    color: #fff;
-}
-
-.header {
-    position: relative;
-    left: 290px;
-    top: 20px;
-    align-items: center;
-    display: flex;
-    width: 1170px;
-    height: 38px;
-    gap: 130px;
-}
-
-.logo {
-    width: 118px;
-    height: 24px;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    color: #000;
-}
-
-.tabs {
-    font-family: 'Poppins';
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 24px;
-    gap: 48px;
-    white-space: nowrap;
-}
-
-.searchTab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 243px;
-    height: 38px;
-    border-radius: 4px;
-    gap: 10px;
-    background-color: #f5f5f5;
-}
-
-.component1 {
-    outline: none;
-    border: none;
-    text-align: center;
-    background-color: #f5f5f5;
-}
-
-.tabIcons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 128px;
-    height: 32px;
-}
-
-.headerline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 0px;
-    border: 0.5px solid #000;
-    opacity: 30%;
-    margin-top: 35px;
-}
-.roadmap {
-    position: relative;
-    top: 70px;
-    left: 297px;
-    font-family: 'Poppins';
-    display: flex;
-    flex-direction: row;
-    width: 390px;
-    height: 21px;
-    gap: 12px;
-} 
-.roadmapcontent{
-    opacity: 50%;
-}
-.roadmapcontent, .contentAbout{
-    font-style: normal;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0%;
-    color: #000;
-}
-
-
-.roadmapline {
-    position: relative;
-    top: 10px;
-    text-align: center;
-    width: 13.19px;
-    height: 0px;
-    border: 1px solid #000;
-    rotate: 117.05deg;
-    opacity: 50%;
-}
-.alignment {
-    width: 100%;
-    height: 2500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.aboutUs {
-    width: 100%;
-    height: 610px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 360px;
-}
-
-.aboutText {
-    width: 525px;
-    height: 336px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 40px;
-}
-
-.aboutImage{
-    width: 705px;
-    height: 609px;
-}
-
-.OurStory {
-    width: 277px;
-    height: 64px;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 54px;
-    line-height: 64px;
-    letter-spacing: 6%;
-
-}
-
-.OurStoryContent {
-    width: 525px;
-    height: 232px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.storyContent1,
-.storyContent2 {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0%;
-    color: #000;
-}
-
-.storyContent1 {
-    width: 525px;
-    height: 130px;
-}
-
-.storyContent2 {
-    width: 505px;
-    height: 78px;
-}
-
-.achivements {
-    width: 1170px;
-    height: 230px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.achivement {
-    width: 270px;
-    height: 230px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
-
-:hover.achivement{
-    background-color: #db4444;
-}
-.achivementIcon {
-    width: 80px;
-    height: 80px;
-}
-.outerCircle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8C898F;
-}
-.innerCircle {
-    width: 58px;
-    height: 58px;
-    top: 11px;
-    left: 11px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-}
-.salseouterCircle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffF;
-}
-.innerCircle {
-    width: 58px;
-    height: 58px;
-    top: 11px;
-    left: 11px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-}
-
-
-.achivementText {
-    width: 215px;
-    height: 66px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-
-.achivementCount {
-    width: 92px;
-    height: 30px;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 30px;
-    letter-spacing: 4%;
-    color: #000;
-}
-
-.achivementDiscription {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: center;
-    color: #000;
-}
-
-.sales {
-    width: 270px;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    border: 1px solid #000;
-    border-radius: 4px;
-}
-:hover.sales{
-    color: #fafafa;
-    background-color: #db4444;
-}
-.salesText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.salesCount {
-    width: 92px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 30px;
-    letter-spacing: 4%;
-    color: #000;
-}
-
-.salesDiscription {
-    width: 200px;
-    height: 24px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: center;
-    color: #000;
-}
-
-.employee{
-    width: 1170px;
-    height: 564px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.person{
-    width: 370px;
-    height: 564px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.personImage{
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    width: 370px;
-    height: 430px;
-    border: 1px;
-    border-radius: 4px;
-    background-color: #f5f5f5;
-}
-
-.image1{
-    width: 236px;
-    height: 391px;
-}
-
-.personDiscription{
-    display: flex;
-    flex-direction: column;
-    width: 185px;
-    height: 102px;
-    gap: 16px;
-}
-
-.personDetails{
-    width: 185px;
-    height: 62px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.personName{
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 30px;
-    letter-spacing: 4%;
-    color: #000;
-}
-
-.personPosition{
-    width: 167px;
-    height: 24px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #000;
-}
-
-.socialApps{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 104px;
-    height: 24px;
-    gap: 16px;
-}
-
-.person2Discription{
-    display: flex;
-    flex-direction: column;
-    width: 231px;
-    height: 102px;
-    gap: 16px;
-}
-
-.person2Details{
-    width: 231px;
-    height: 62px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.scroll{
-    width: 112px;
-    height: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-.ellipes{
-    width: 12px;
-    height: 12px;
-    opacity: 30%;
-    color: #000;
-}
-
-.redEllipes{
-    width: 16px;
-    height: 16px;
-}
-
-.service{
-    width: 943px;
-    height: 161px;
-    display: flex;
-    flex-direction: row;
-    gap: 88px;
-}
-
-.delivery, .customerSupport{
-    width: 249px;
-    height: 161px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
-
-.refund{
-    width: 256px;
-    height: 161px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
-
-.deliveryImage, .CSImage, .refundImage{
-    width: 80px;
-    height: 80px;
-}
-
-.deliveryContent, .CSContet{
-    width: 249px;
-    height: 57px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-.refundContent{
-    width: 256px;
-    height: 57px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-.serviceTitle{
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #000;
-}
-
-.serviceContent{
-    width: 249px;
-    height: 21px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: center;
-    color: #000;
-}
-
-.footer {
-    position: relative;
-    width: 100%;
-    height: 440px;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footerContent {
-    position: absolute;
-    top: 100px;
-    width: 1170px;
-    height: 236px;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 87px;
-}
-
-.footerContent1 {
-    display: flex;
-    flex-direction: column;
-    width: 217px;
-    height: 188px;
-    gap: 16px;
-}
-
-.footerLogo {
-    width: 118px;
-    height: 24px;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    color: #fff;
-}
-
-.subscribe {
-    width: 101px;
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.firstOrder {
-    width: 206px;
-    height: 24px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.sendMail {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 217px;
-    height: 48px;
-    border: 1.5px solid #fafafa;
-    border-radius: 4px;
-}
-
-.input {
-    width: 130px;
-    height: 24px;
-    opacity: 40%;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.sendIcon {
-    width: 24px;
-    height: 24px;
-    color: #FAFAFA;
-}
-
-.footerContent2 {
-    display: flex;
-    flex-direction: column;
-    width: 175px;
-    height: 180px;
-    gap: 24px;
-}
-
-
-.support {
-    width: 81px;
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.address,
-.email,
-.phone {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.address {
-    width: 175px;
-    height: 48px;
-}
-
-.email {
-    width: 175px;
-    height: 24px;
-}
-
-.phone {
-    width: 165px;
-    height: 24px;
-}
-
-.footerContent3 {
-    width: 123px;
-    height: 236px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.account {
-    width: 85px;
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.accountContent {
-    width: 123px;
-    height: 184px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.myAccount,
-.login,
-.cart,
-.FooterwishList,
-.shop {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.footerContent4 {
-    width: 109px;
-    height: 196px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.quickLink {
-    width: 101px;
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.quickLinkContent {
-    width: 109px;
-    height: 144px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.privacy,
-.terms,
-.FAQ,
-.contact {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.footerContent5 {
-    display: flex;
-    flex-direction: column;
-    width: 198px;
-    height: 162px;
-    gap: 24px;
-}
-
-.downloadApp {
-    width: 148px;
-    height: 28px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.newUser {
-    width: 194px;
-    height: 18px;
-    opacity: 70%;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    color: #fafafa;
-}
-
-.links {
-    width: 198px;
-    height: 84px;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-
-.qrCode {
-    width: 80px;
-    height: 80px;
-    border: 2.5px solid #fafafa;
-}
-
-.download {
-    width: 110px;
-    height: 84px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-}
-
-.playstore,
-.appstore {
-    width: 104px;
-    height: 30px;
-}
-
-.socialMedia {
-    width: 168px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
-}
-
-
-.footerLine {
-    width: 100%;
-    height: 0px;
-    border: 1px solid #fff;
-    opacity: 40%;
-}
-
-.copyrightsbox {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-}
-
-.copyrights {
-    position: absolute;
-    top: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
-    opacity: 50%;
-}
-
-.footerCopyrights {
-    width: 337px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-}
-
-.copyrightsText {
-    width: 311px;
-    height: 24px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #fff;
-}
+ #main-header {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+     padding-bottom: 30px;
+ }
+
+ .main-header-utility-bar {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     gap: 231px;
+     background-color: #000;
+ }
+
+ .main-header-title-container {
+     height: 24px;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+
+ .main-header-title {
+     width: 474px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     
+     color: #fafafa;
+ }
+
+ .main-header-cta {
+     font-family: 'Poppins';
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     
+     text-decoration: underline;
+     color: #fafafa;
+     background-color: #000;
+     outline: none;
+     border: none;
+ }
+
+ .main-header-language-switcher {
+     width: 78px;
+     height: 21px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+ }
+
+ .main-header-language-switcher select {
+     border: none;
+     outline: none;
+     background-color: black;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ #main-header-menu {
+     width: 100%;
+     height: 38px;
+     gap: 130px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-direction: row;
+ }
+
+ .main-header-menu-section-left {
+     display: flex;
+     flex-direction: row;
+     width: 645px;
+     height: 24px;
+     gap: 160px;
+ }
+
+ .main-header-menu-logo {
+     font-family: 'Inter';
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     
+ }
+
+ .menu-link-content {
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #000;
+ }
+
+ #menu-active-link {
+     border-bottom: 2px solid #000
+ }
+
+
+ .main-header-menu-section-right {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .search-container {
+     width: 243px;
+     height: 38px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 4px;
+     background: #F5F5F5;
+ }
+
+ .search-box {
+     width: 211px;
+     height: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+
+ .search-input {
+     width: 153px;
+     height: 18px;
+     font-size: 12px;
+     line-height: 18px;
+     border: none;
+     outline: none;
+     background: transparent;
+     white-space: nowrap;
+ }
+
+ .search {
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
+ }
+
+ .main-header-side-icons {
+     width: 128px;
+     height: 32px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ /* page header ends  */
+ /* about us section starts here */
+
+ .roadmap {
+     margin-top: 70px;
+     margin-left: 135px;
+     font-family: 'Poppins';
+     display: flex;
+     flex-direction: row;
+     width: 123px;
+     height: 21px;
+     gap: 12px;
+ }
+
+ .roadmap-content {
+     opacity: 50%;
+ }
+
+ .roadmap-content,
+ .content-about {
+     font-style: normal;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     
+     color: #000;
+ }
+
+
+ .roadmap-line {
+     position: relative;
+     top: 10px;
+     text-align: center;
+     width: 13.19px;
+     height: 0px;
+     border: 1px solid #000;
+     rotate: 117.05deg;
+     opacity: 50%;
+ }
+
+ .about-us {
+     width: 100%;
+     height: 610px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 360px;
+ }
+
+ .about-us-text {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 40px;
+ }
+
+ .Our-story {
+     width: 277px;
+     height: 64px;
+     font-family: 'Inter';
+     font-weight: 600;
+     font-size: 54px;
+     line-height: 64px;
+
+ }
+
+ .Our-story-content {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 24px;
+ }
+
+ .story-content {
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     
+     color: #000;
+ }
+
+
+ .about-image {
+     width: 705px;
+     height: 609px;
+ }
+
+ .achivement-container {
+     margin-top: 80px;
+     width: 100%;
+     height: 230px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .achivement {
+     width: 270px;
+     height: 230px;
+     border: 1px solid rgba(0, 0, 0, 0.5);
+     border-radius: 4px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .achivement-icon {
+     width: 80px;
+     height: 80px;
+ }
+
+ .outer-circle {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #8C898F;
+ }
+
+ .inner-circle {
+     width: 58px;
+     height: 58px;
+     top: 11px;
+     left: 11px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #000000;
+ }
+
+
+ .achivement-text {
+     width: 215px;
+     height: 66px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 12px;
+ }
+
+ .achivement-count {
+     width: 92px;
+     height: 30px;
+     font-family: 'Inter';
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 30px;
+     color: #000;
+ }
+
+ .achivement-discription {
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     
+     display: flex;
+     justify-content: center;
+     color: #000;
+ }
+
+ .employee-container {
+     margin-top: 100px;
+     width: 100%;
+     height: 564px;
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+     overflow-x: auto;
+     scroll-snap-type: x mandatory;
+ }
+
+ .employee-container::-webkit-scrollbar {
+     display: none;
+ }
+
+ .employee {
+     height: 564px;
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+      justify-content: center;
+     flex: 0 0 30%;
+     scroll-snap-align: start;
+     border-radius: 8px;
+     overflow: hidden;
+ }
+
+
+
+ .employee-image {
+     display: flex;
+     align-items: end;
+     justify-content: center;
+     overflow: hidden;
+     line-height: 0;
+     width: 370px;
+     height: 430px;
+     border: 1px;
+     border-radius: 4px;
+     background-color: #f5f5f5;
+ }
+
+
+ .employee-discription {
+     display: flex;
+     flex-direction: column;
+     width: 185px;
+     height: 102px;
+     gap: 16px;
+ }
+
+ .employee-details {
+     width: 185px;
+     height: 62px;
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+ }
+
+ .employee-name {
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 32px;
+     line-height: 30px;
+     color: #000;
+ }
+
+ .position {
+     width: 167px;
+     height: 24px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     
+     color: #000;
+ }
+
+ .social-apps {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     width: 104px;
+     height: 24px;
+     gap: 16px;
+ }
+
+ .service-container {
+    margin-top: 80px;
+     width: 100%;
+     height: 250px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     gap: 88px;
+ }
+
+ .service{
+     width: 260px;
+     height: 161px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .service-image {
+     width: 80px;
+     height: 80px;
+ }
+
+ .service-content-container{
+     width: 260px;
+     height: 57px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+ }
+
+ .service-title {
+     height: 28px;
+     font-family: 'Poppins';
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 28px;
+     
+     color: #000;
+ }
+
+ .service-content {
+     width: 249px;
+     height: 21px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     
+     display: flex;
+     justify-content: center;
+     color: #000;
+ }
+
+ /* footer starts here */
+
+ .footer {
+     margin-top: 80px;
+     width: 100%;
+     height: 440px;
+     background-color: #000;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .footer-content-container {
+     margin-top: 75px;
+     height: 236px;
+     display: flex;
+     flex-direction: row;
+     align-items: baseline;
+     gap: 86px;
+ }
+
+ .footer-content {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .footer-logo {
+     font-family: 'Inter';
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     
+     color: #fff;
+ }
+
+
+ .send-mail {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     width: 217px;
+     height: 48px;
+     border: 1.5px solid #fafafa;
+     border-radius: 4px;
+ }
+
+ .input {
+     width: 130px;
+     height: 24px;
+     opacity: 40%;
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     
+     color: #fafafa;
+ }
+
+ .send-icon {
+     width: 24px;
+     height: 24px;
+     color: #FAFAFA;
+ }
+
+
+ .footer-quick-link {
+     font-family: 'Poppins';
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 28px;
+     
+     color: #fafafa;
+ }
+
+ .quick-link-content {
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     
+     color: #fafafa;
+ }
+
+
+ .new-user {
+     opacity: 70%;
+     font-family: 'Poppins';
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 18px;
+     
+     color: #fafafa;
+ }
+
+ .links {
+     display: flex;
+     flex-direction: row;
+     gap: 8px;
+ }
+
+
+ .download {
+     width: 110px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 8px;
+ }
+
+ .social-media {
+     width: 168px;
+     height: 24px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .copyright {
+     margin-top: 40px;
+     border-top: 1px solid rgba(255, 255, 255, 0.5);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     height: 50px;
+     opacity: 50%;
+ }
+
+ .copyright-content {
+     margin-top: 30px;
+     width: 337px;
+     height: 24px;
+     display: flex;
+     flex-direction: row;
+     gap: 6px;
+ }
+
+ .copyright-text {
+     font-family: 'Poppins';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     
+     color: #fff;
+ }
+
+ /* laptop screen */
+ @media screen and (min-width: 1024px) and (max-width: 1920px) {
+     .main-header-utility-bar {
+         justify-content: space-around;
+         width: 100%;
+         height: 48px;
+         gap: 0px;
+         background-color: #000;
+     }
+
+     #main-header-menu {
+         margin-top: 50px;
+         width: 100%;
+         height: 38px;
+         gap: 0px;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         flex-direction: row;
+     }
+
+     .main-header-menu-section-left {
+         display: flex;
+         flex-direction: row;
+         width: 645px;
+         height: 24px;
+         gap: 100px;
+     }
+
+     .main-header-menu-links {
+         display: flex;
+         flex-direction: row;
+         gap: 48px;
+     }
+
+     /* header ends */
+
+
+     .about-us {
+         height: 810px;
+         gap: 180px;
+     }
+
+     .about-us-text {
+         width: 400px;
+     }
+
+     .achivements {
+         width: 100%;
+         height: 350px;
+         justify-content: space-evenly;
+     }
+
+     .employee-container {
+         justify-content: flex-end;
+     }
+ }
+
+ @media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+    .roadmap {
+        margin-left: 30px;
+    }
+     .about-us {
+         gap: 50px;
+         justify-content: center;
+     }
+
+     .about-us-text {
+         width: 300px;
+     }
+
+     .about-image,
+     .about-image img {
+         width: 600px;
+         height: 500px;
+     }
+
+     .achivement {
+         width: 230px;
+     }
+
+     .employee{
+        flex: 0 0 50%;
+     }
+     .employee-container {
+         justify-content: flex-start;
+     }
+
+     /* footer */
+
+     .footer-content-container {
+         gap: 25px;
+         flex-wrap: nowrap;
+     }
+ }
+
+ /* tablet screen */
+ @media screen and (min-width: 768px) and (max-width:1023px) {
+     .main-header-utility-bar {
+         width: 100%;
+         height: 48px;
+         justify-content: space-evenly;
+         gap: 50px;
+         background-color: #000;
+     }
+
+     .hamburger {
+         position: relative;
+         top: 33px;
+         left: 20px;
+         cursor: pointer;
+         width: 30px;
+     }
+
+     .hamburger div {
+         height: 4px;
+         background: #333;
+         margin: 6px 0;
+     }
+
+     #main-header-menu {
+         margin-top: 40px;
+         width: 100%;
+         height: 90px;
+         gap: 0px;
+         display: flex;
+         align-items: flex-start;
+         justify-content: space-evenly;
+         flex-direction: row;
+     }
+
+     .main-header-menu-section-left {
+         display: flex;
+         flex-direction: column;
+         width: 330px;
+         height: 60px;
+         gap: 10px;
+     }
+
+     #main-header-menu-links {
+         display: none;
+     }
+
+     #main-header-menu-links.show {
+         width: 260px;
+         height: 25px;
+         display: flex;
+         flex-direction: row;
+         gap: 10px;
+     }
+
+     /* header ends */
+
+
+     .about-us {
+         flex-direction: column;
+         width: 100%;
+         height: 970px;
+         gap: 40px;
+     }
+
+     .about-us-text {
+         width: 600px;
+     }
+
+     .about-image {
+         width: 600px;
+         height: 500px;
+     }
+
+     .about-image img {
+         width: 600px;
+         height: 500px;
+     }
+
+     .achivement-container {
+         flex-wrap: wrap;
+         height: 500px;
+         gap: 30px;
+         justify-content: center;
+     }
+
+     .employee{
+        align-items: center;
+        flex: 0 0 100%;
+     }
+
+     .service-container{
+        height: 410px;
+        flex-wrap: wrap;
+     }
+
+     /* footer starts here */
+
+        .footer {
+            height: 700px;
+        }
+
+        .footer-content-container {
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 520px;
+            gap: 50px;
+        }
+
+        .copyright {
+            top: 626px;
+        }
+ }
+
+ @media screen and (max-width: 767px) {
+     .main-header-utility-bar {
+         justify-content: space-evenly;
+         align-items: center;
+         width: 100%;
+         height: 48px;
+         gap: 0px;
+         background-color: #000;
+     }
+
+     .main-header-title-container {
+         padding-left: 4px;
+         height: 42px;
+         justify-content: center;
+         align-items: center;
+         gap: 0px;
+     }
+
+     .main-header-title {
+         text-wrap: balance;
+         width: 185px;
+         line-height: 15px;
+         font-size: 10px;
+     }
+
+     .main-header-cta {
+         display: inline;
+         height: 0px;
+         position: relative;
+         top: -4px;
+         right: 20px;
+         font-weight: 500;
+         font-size: 10px;
+     }
+
+     .main-header-language-switcher {
+         overflow: hidden;
+
+     }
+
+     .hamburger {
+         position: relative;
+         top: 5px;
+         left: 0px;
+         cursor: pointer;
+         width: 30px;
+     }
+
+     .hamburger div {
+         height: 4px;
+         background: #333;
+         margin: 6px 0;
+     }
+
+     #main-header-menu {
+         width: 100%;
+         height: 115px;
+         gap: 0px;
+         display: flex;
+         align-items: flex-start;
+         justify-content: space-evenly;
+         flex-direction: column;
+     }
+
+     .main-header-menu-section-left {
+         display: flex;
+         flex-direction: column;
+         width: 300px;
+         height: 24px;
+         gap: 10px;
+     }
+
+     #main-header-menu-links {
+         display: none;
+     }
+
+     #main-header-menu-links.show {
+         height: 25px;
+         display: flex;
+         flex-direction: row;
+         margin-top: 50px;
+         gap: 15px;
+     }
+
+     .main-header-menu-section-right {
+         width: 100%;
+         justify-content: space-between;
+         flex-direction: row;
+     }
+
+     .search-container {
+         width: 190px;
+     }
+
+     /* header ends here */
+
+     .roadmap {
+         width: 315px;
+         margin-top: 20px;
+         margin-left: 0px;
+         align-items: baseline;
+         gap: 5px;
+     }
+
+     .about-us {
+         margin-top: 70px;
+         flex-direction: column;
+         height: auto;
+         gap: 90px;
+     }
+
+     .about-image,
+     .about-image img {
+         width: 320px;
+         height: 270px;
+     }
+
+     .achivement-container {
+         height: 1100px;
+         flex-direction: column;
+         align-items: center;
+
+     }
+
+     .employee-container{
+        flex-direction: column;
+        overflow-x: hidden;
+        scroll-snap-type: none;
+        height: auto;
+     }
+
+     .employee{
+        flex: 0 0 100%;
+        align-items: center;
+     }
+
+     .service-container{
+        flex-direction: column;
+        height: auto;
+     }
+
+     /* footer starts here */
+
+     .footer {
+         height: 1600px;
+     }
+
+     .footer-content-container {
+         width: 300px;
+         height: 1400px;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .footer-content{
+        width: 235px;
+     }
+
+     .address {
+         width: 300px;
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+ }
